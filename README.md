@@ -1,3 +1,16 @@
 # Team PC Pour Tous
 
-Team PC pour tous
+Boite à outil de développement Web Fullstack.
+
+## En savoir plus
+
+### Références NextJS / React
+
+* Le concept: https://www.youtube.com/watch?v=wTFThzLcrOk (35min)
+* Fondamentaux: https://fr.reactjs.org/docs/hello-world.html
+* CSS/Sass: https://nextjs.org/docs/basic-features/built-in-css-support
+* HTML: https://nextjs.org/docs/basic-features/layouts
+* Images: https://nextjs.org/docs/basic-features/image-optimization
+* Identification: https://nextjs.org/docs/authentication
+* Routing: https://nextjs.org/docs/routing/introduction
+* API: https://nextjs.org/docs/api-routes/introduction
