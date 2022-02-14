@@ -2,7 +2,18 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+// Test de récupération de doonées depuis l'API
+export async function getServerSideProps() {
+  // Fetch data from external API
+  const res = await fetch(`https://api-mangarises.herokuapp.com/`)
+  const data = await res.json()
+
+  // Pass data to the page via props
+  return { props: { ...data } }
+}
+
+
+export default function Home(props) {
   return (
     <div className={styles.container}>
       <Head>
@@ -13,7 +24,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          {props.message}
         </h1>
 
         <p className={styles.description}>
