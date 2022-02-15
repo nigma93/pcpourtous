@@ -14,3 +14,30 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+.anime{
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+}
+#titre{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+#dr:hover{
+  background-color: #5C161D;
+}
+#na:hover{
+  background-color: #c5a543;
+}
+#on:hover{
+  background-color: grey;
+}
+#one:hover{
+  background-color: #3f95a7;
+}
+#manga:hover{
+  background-color: grey;
+}
