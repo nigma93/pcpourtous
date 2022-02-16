@@ -12,28 +12,28 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
 /* ===================== NAV ===================== */
-      <header  class="header">
-        <nav class="navbar navbar-expand-lg " style="background-color: black;">
-          <div class="container row">
-            <div class="col-sm-2  ">
-              <img class="w-50" src="img/manga.jpg" alt="" />
+      <header  className="header">
+        <nav className="navbar navbar-expand-lg ">
+          <div className="container row">
+            <div className="col-sm-2  ">
+              <img className="w-50" src="img/manga.jpg" alt="" />
             </div>
-            <div class="col-sm-8 d-flex justify-content-center">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link text-secondary text-center btn " href="" id="manga">webtoons</a>
+            <div className="col-sm-8 d-flex justify-content-center">
+              <ul className="navbar-nav">
+                <li className="nav-item">
+                  <a className="nav-link text-secondary text-center btn " href="" id="manga">webtoons</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link text-secondary" href="#">Catégories</a>
+                <li className="nav-item">
+                  <a className="nav-link text-secondary" href="#">Catégories</a>
                 </li>
               </ul>
             </div>
-            <div class="input-group col-sm-2">
-              <div class="input-group-prepend">
-                <svg xmlns="" width="16" height="16" fill="currentColor" class="bi bi-search text-secondary" viewBox="0 0 16 16">
+            <div className="input-group col-sm-2">
+              <div className="input-group-prepend">
+                <svg xmlns="" width="16" height="16" fill="currentColor" className="bi bi-search text-secondary" viewBox="0 0 16 16">
                   <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
                 </svg>
-                <input class="" type="text" />
+                <input className="" type="text" />
               </div>
             </div>
           </div>
@@ -41,30 +41,30 @@ export default function Home() {
         </header>
       </div>
 /* ===================== HOME ===================== */
-    <main class="l-main">
-      <section class="home bd-grid" id="home">
-        <div class="home__data">
-          <h2 class="home__title">Bienvenue <br />dans l'univers de</h2>
-          <h1 class="home__title">Webtoon</h1>
-          <a href="#" class="button">Qui sommes nous?</a>
+    <main className="l-main">
+      <section className="home bd-grid" id="home">
+        <div className="home__data">
+          <h2 className="home__title">Bienvenue <br />dans l'univers de</h2>
+          <h1 className="home__title">Webtoon</h1>
+          <a href="#" className="button">Qui sommes nous?</a>
         </div>
-        <div class="home__img">
+        <div className="home__img">
           <img src="/web/public/Adult-Arthur.webp" alt="webtoon Arthur"></img>
 
         </div>
       </section>
 /* ===================== ANIME ===================== */
-      <section class="pt-2" style="background-color: rgb(204, 197, 197)">
-        <div class="container">
-          <h2 class="text-secondary " id="titre">webtoon</h2>
+      <section className="pt-2">
+        <div className="container">
+          <h2 className="text-secondary " id="titre">webtoon</h2>
         </div>
-        <div class="row g-4 ">
-          <div class="col-md-6 col-lg-3">
-            <div class="card " style="background-color: black;">
-              <div class="card-body text-center">
-                <img src="../assets/the return.jpg" alt="" class="anime" />
-                <h3 class="text-secondary">the return of the disaster class hero</h3>
-                <p class="text-secondary">Il était une fois un héros qui considéré autre fois comme le plus puissant de la Terre.
+        <div className="row g-4 ">
+          <div className="col-md-6 col-lg-3">
+            <div className="card ">
+              <div className="card-body text-center">
+                <img src="../assets/the return.jpg" alt="" className="anime" />
+                <h3 className="text-secondary">the return of the disaster class hero</h3>
+                <p className="text-secondary">Il était une fois un héros qui considéré autre fois comme le plus puissant de la Terre.
 
                   « Mais il est mort… Comment une personne désignée comme morte pourrait-il revenir ? »
                   « Ouais, j’aimerais bien voir ça, moi aussi. »
@@ -75,41 +75,41 @@ export default function Home() {
 
                   ‘Ces enfoirés… je vais pas les laisser s’en tirer comme ça…
                 </p>
-                <a class="btn bnt-info" href="https://mangas-origines.fr/catalogue/the-return-of-the-disaster-class-hero/" id="on">Lire le Webtoon</a>
+                <a className="btn bnt-info" href="https://mangas-origines.fr/catalogue/the-return-of-the-disaster-class-hero/" id="on">Lire le Webtoon</a>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="card" style="background-color: black;">
-              <div class="card-body text-center">
-                <img src="../assets/unordinary.jpg" alt="" class="anime" />
-                <h3 class="text-info">unordinary</h3>
-                <p class="text-info"> Le monde n'est pas parfait. Apprendre à gérer ses imperfections fait partie de la vie. Mais il arrive un moment où ces défauts forcent une révélation... que quelque chose doit changer...
+          <div className="col-md-6 col-lg-3">
+            <div className="card">
+              <div className="card-body text-center">
+                <img src="../assets/unordinary.jpg" alt="" className="anime" />
+                <h3 className="text-info">unordinary</h3>
+                <p className="text-info"> Le monde n'est pas parfait. Apprendre à gérer ses imperfections fait partie de la vie. Mais il arrive un moment où ces défauts forcent une révélation... que quelque chose doit changer...
 
                 </p>
-                <a class="btn bnt-info text-info" href="https://www.webtoons.com/fr/fantasy/unordinary/list?title_no=1847" id="one">Lire le Webtoon</a>
+                <a className="btn bnt-info text-info" href="https://www.webtoons.com/fr/fantasy/unordinary/list?title_no=1847" id="one">Lire le Webtoon</a>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="card " style="background-color: black;">
-              <div class="card-body text-center">
-                <img src="../assets/solo leveling.jpg" alt="" class="anime" />
-                <h3 class="text-warning">solo leveling</h3>
-                <p class="text-warning">Dix ans auparavant, des portails ont commencé à apparaître un peu partout dans le monde, Ces portails peuvent connecter notre monde à un monde peuplé de monstres et de créatures. Des personnes ordinaires ont acquis la capacité de chasser ces derniers. Sur les appelle les chasseurs. Sung Jin-Woo est le plus faible des chasseurs de rang E, autrement dit, le plus faible parmi les faibles. Il est donc surnommé par ses confrères chasseurs « le faible ». En tout cas il l'était, jusqu'à ce qu'il se retrouve piégé dans un donjon et y acquière une capacité… étrange. Il peut désormais voir une interface de recherche.
+          <div className="col-md-6 col-lg-3">
+            <div className="card ">
+              <div className="card-body text-center">
+                <img src="../assets/solo leveling.jpg" alt="" className="anime" />
+                <h3 className="text-warning">solo leveling</h3>
+                <p className="text-warning">Dix ans auparavant, des portails ont commencé à apparaître un peu partout dans le monde, Ces portails peuvent connecter notre monde à un monde peuplé de monstres et de créatures. Des personnes ordinaires ont acquis la capacité de chasser ces derniers. Sur les appelle les chasseurs. Sung Jin-Woo est le plus faible des chasseurs de rang E, autrement dit, le plus faible parmi les faibles. Il est donc surnommé par ses confrères chasseurs « le faible ». En tout cas il l'était, jusqu'à ce qu'il se retrouve piégé dans un donjon et y acquière une capacité… étrange. Il peut désormais voir une interface de recherche.
                   Sung Jin Woo va-t-il réussir à devenir le plus puissant des chasseurs tout en surmontant les épreuves et les conspirations ?</p>
-                <a class="btn bnt-info text-warning" href="https://www.sololeveling.fr/" id="na">Lire le Webtoon</a>
+                <a className="btn bnt-info text-warning" href="https://www.sololeveling.fr/" id="na">Lire le Webtoon</a>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="card" style="background-color: black;">
-              <div class="card-body text-center">
-                <img src="../assets/arthur.jpg" alt="" class="anime" />
-                <h3 class="text-danger">The Beginning After The End</h3>
-                <p class="text-danger">Le roi Grey possède une force, une richesse et un prestige inégalés dans un monde régi par les capacités martiales. Cependant, la solitude suit de près les détenteurs de grands pouvoirs. Sous l'apparence glamour d'un roi puissant se cache la coquille de l'homme, dépourvue de but et de volonté. Réincarné dans un nouveau monde rempli de magie et de monstres, le roi a une seconde chance de revivre sa vie. Corriger les erreurs de son passé ne sera cependant pas son seul défi. Sous la paix et la prospérité du nouveau monde se cache un courant sous-jacent qui menace de détruire tout ce pour quoi il a travaillé, remettant en question son rôle et la raison pour laquelle il est né de nouveau.
+          <div className="col-md-6 col-lg-3">
+            <div className="card">
+              <div className="card-body text-center">
+                <img src="../assets/arthur.jpg" alt="" className="anime" />
+                <h3 className="text-danger">The Beginning After The End</h3>
+                <p className="text-danger">Le roi Grey possède une force, une richesse et un prestige inégalés dans un monde régi par les capacités martiales. Cependant, la solitude suit de près les détenteurs de grands pouvoirs. Sous l'apparence glamour d'un roi puissant se cache la coquille de l'homme, dépourvue de but et de volonté. Réincarné dans un nouveau monde rempli de magie et de monstres, le roi a une seconde chance de revivre sa vie. Corriger les erreurs de son passé ne sera cependant pas son seul défi. Sous la paix et la prospérité du nouveau monde se cache un courant sous-jacent qui menace de détruire tout ce pour quoi il a travaillé, remettant en question son rôle et la raison pour laquelle il est né de nouveau.
                 </p>
-                <a class="btn bnt-info text-danger" href="https://www.thebeginningaftertheend.fr/" id="dr">Lire le Webtoon</a>
+                <a className="btn bnt-info text-danger" href="https://www.thebeginningaftertheend.fr/" id="dr">Lire le Webtoon</a>
 
               </div>
             </div>
@@ -117,27 +117,27 @@ export default function Home() {
         </div>
       </section>
 /* ===================== CONTACT ===================== */
-    <section class="contact section" id="contact">
-      <h2 class="section-title">Contact</h2>
-      <div class="contact__container bd-grid">
-        <form action="" class="contact__form">
-          <input type="text" placeholder="Name" class="contact__input"></input>
-          <input type="mail" placeholder="Email" class="contact__input"></input>
-          <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-          <input type="button" value="Envoyer" class="contact__button button"></input>
+    <section className="contact section" id="contact">
+      <h2 className="section-title">Contact</h2>
+      <div className="contact__container bd-grid">
+        <form action="" className="contact__form">
+          <input type="text" placeholder="Name" className="contact__input"></input>
+          <input type="mail" placeholder="Email" className="contact__input"></input>
+          <textarea name="" id="" cols="0" rows="10" className="contact__input"></textarea>
+          <input type="button" value="Envoyer" className="contact__button button"></input>
         </form>
       </div>
     </section>
     </main>
 /* ===================== Footer ===================== */
-    <footer class="footer">
-      <p class="footer__title">Pc pour tous</p>
+    <footer className="footer">
+      <p className="footer__title">Pc pour tous</p>
       <div>
-        <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-        <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-        <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+        <a href="#" className="footer__icon"><i className='bx bxl-facebook' ></i></a>
+        <a href="#" className="footer__icon"><i className='bx bxl-instagram' ></i></a>
+        <a href="#" className="footer__icon"><i className='bx bxl-twitter' ></i></a>
       </div>
-      <p class="footer__copy">&#169; Team6. All rigths reserved</p>
+      <p className="footer__copy">&#169; Team6. All rigths reserved</p>
     </footer>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
