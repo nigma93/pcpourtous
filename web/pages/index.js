@@ -124,7 +124,7 @@ export default function Home() {
           <input type="text" placeholder="Name" className="contact__input"></input>
           <input type="mail" placeholder="Email" className="contact__input"></input>
           <textarea name="" id="" cols="0" rows="10" className="contact__input"></textarea>
-          <input type="button" value="Envoyer" className="contact__button button"></input>
+          <button type="submit" value="Envoyer" className="contact__button button"></button>
         </form>
       </div>
     </section>
